@@ -18,9 +18,9 @@
   "author": "Ali Solanki, Daniel Eugene Botha",
   "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
-    "build": "CI= npm run build"
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "./node_modules/.bin/netlify-lambda serve src",
+  "build": "react-scripts build"
   },
   "browserslist": {
     "production": [
